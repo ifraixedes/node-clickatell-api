@@ -1,0 +1,37 @@
+{
+  "name": "clickatell-api",
+  "version": "0.0.1",
+  "description": "Wrapper for Clickatell SMS gateway",
+  "author": "Ivan Fraixedes Cugat <ivan@fraicu.com> (http://www.fraicu.com/)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifraixedes/node-clickatell-api.git"
+  },
+  "keywords": [
+    "clickatell",
+    "api",
+    "sms-gateway",
+    "sms"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifraixedes/node-clickatell-api/issues"
+  },
+  "dependencies": {
+    "q": "~0.9.7",
+    "lodash": "~2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "mocha-as-promised": "~1.4.0",
+    "chai": "~1.8.1",
+    "chai-as-promised": "~4.0.0"
+  }
+}
