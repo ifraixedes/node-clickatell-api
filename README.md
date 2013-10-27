@@ -19,7 +19,7 @@ Then, let's start
 var clickatell = require('clickatell-api');
 
 var cktClient = clickatell('YOUR USER', 'YOUR PASSWORD');
-var cktHttp = cktClient('YOUR HTTP API ID');
+var cktHttp = cktClient.http('YOUR HTTP API ID');
 
 var promise = httpClient.sendMessage('447777888999', 'This is a sms from node-clickatell-api :P');
 
@@ -50,7 +50,7 @@ but "I need https", no worries, just pass and options object with the parameter 
 ```js
 
 // All the code is the same an expcetion of this
-var ckHttp = cktClient('YOUR HTTP API ID', {secured: true});
+var ckHttp = cktClient.http('YOUR HTTP API ID', {secured: true});
 
 ```
 
