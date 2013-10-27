@@ -1,6 +1,6 @@
 {
   "name": "clickatell-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for Clickatell SMS gateway",
   "author": "Ivan Fraixedes Cugat <ivan@fraicu.com> (http://www.fraicu.com/)",
   "main": "index.js",
