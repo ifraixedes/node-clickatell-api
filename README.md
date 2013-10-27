@@ -82,6 +82,13 @@ Then, bear in mind that, you know that you should receive an object with the fie
 However, in some responses, Clickatell response with a list of field value, as kind of on JSON array, but more ugly, plain text, and this module is not smart enough to return an array of objects, so it returns an
 array of values for each field, and the position of one element of the array of one filed should be associated with element in the same position of the array of the another field.
 
+## Launch the test
+To launch the tests is as pretty much straightforward as install the module, so just install the dev dependencies and launch the test:
+
+```js
+npm test
+```
+
 ## What does it need?
 1. Create a task to pass the parameters for tests (user, password, api id).
 2. To implement the rest of the methods of the HTTPs API (they should be quite straightforward).
